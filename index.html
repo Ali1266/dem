@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="box" method="post">
+        <h1>Регистрация</h1>
+        <input type="text" name=""  placeholder="Логин" required>
+        <input type="password" name="" placeholder="Пароль" required>
+        <input type="text" name="" placeholder="ФИО" required>
+        <input type="tel" name="" id="phone" placeholder="Телефон" value="+7 (__) ___-__-__" pattern="^\+375(\s+)?\(?(17|25|29|33|44)\)?(\s+)?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" required>
+        <input type="email" name="" placeholder="Почта" required>
+        <input type="submit" name="" value="Зарегистрироваться" required>
+        <a href="authorization.html">Авторизация</a>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
